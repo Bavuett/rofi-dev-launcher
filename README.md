@@ -2,6 +2,10 @@
 
 Rofi Dev Launcher is a script that lets you launch projects on your preferred Development Environment using [Rofi](https://github.com/davatorium/rofi).
 
+<div align="center">
+    <img src="./assets/screenshot.png" /> 
+</div>
+
 ## Dependencies
 
 These are the dependencies you need to install in order to run the script.
