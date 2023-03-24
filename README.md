@@ -45,10 +45,10 @@ You can find all the supported editors [here](rofi-dev-launcher) in the `EDITORS
 
 ### Integration with Window Managers
 
-You can use the script with your Window Manager by adding a shortcut to it. For example, in [i3](https://github.com/i3/i3), you can add the following line to your configuration file to bind the script to the `Mod+Shift+w` shortcut.
+You can use the script with your Window Manager by adding a shortcut to it. For example, in [i3](https://github.com/i3/i3), you can add the following line to your configuration file to bind the script to the `Mod+Shift+w` shortcut. For example, this is my setup.
 
-```
-bindsym $mod+Shift+w exec --no-startup-id "ROFI_DIRECTORY=[YOUR DIR] ROFI_EDITOR=[YOUR EDITOR] rofi -show dev -modi dev:rofi-dev-launcher"
+```sh
+bindsym $mod+Shift+w exec --no-startup-id "ROFI_DIRECTORY=~/Coding/GitHub ROFI_EDITOR=vscode rofi -show dev -modi dev:rofi-dev-launcher"
 ```
 
 ## Contributing
