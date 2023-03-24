@@ -57,6 +57,7 @@ def init_directory():
     return dir_to_open
 
 def main():
+    print(f"\0prompt\x1fDev Launch")
     ROFI_EDITOR = init_editor()
 
     search_string = html.unescape((' '.join(sys.argv[1:])).strip())
